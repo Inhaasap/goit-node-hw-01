@@ -58,5 +58,23 @@
     "name": "Mango",
     "email": "mango@gmail.com",
     "phone": "322-22-22"
+  },
+  {
+    "id": "eOeSmYnMb8uMktaqVkSOU",
+    "name": "Bandernyatko",
+    "email": "bandera@gmail.com",
+    "phone": "890-25-25"
+  },
+  {
+    "id": "zauRoHkMIoL_G8ujxF5PV",
+    "name": "Bavovnyatko",
+    "email": "bavovna@gmail.com",
+    "phone": "856-23-34"
+  },
+  {
+    "id": "8_N66Tts0YGP9gC77V5rK",
+    "name": "Zaluzhnyiy",
+    "email": "orkampipec@gmail.com",
+    "phone": "856-23-34"
   }
 ]
