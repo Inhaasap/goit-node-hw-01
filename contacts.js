@@ -6,6 +6,7 @@ const contactsPath = path.join(__dirname, 'db', 'contacts.json');
 
 const listContacts = async () => {
   const data = await fs.readFile(contactsPath);
+  
   return JSON.parse(data);
 };
 
@@ -38,6 +39,8 @@ const addContact = async (name, email, phone) => {
   await fs.writeFile(contactsPath, JSON.stringify(contacts, null, 2));
   return newContact;
 };
+
+// crypto.randomUUID()
 
 module.exports = {
   listContacts,
