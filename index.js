@@ -28,6 +28,7 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
   }
 };
 
+// ------- Variant 1
 program
   .option('-a, --action <type>', 'choose action')
   .option('-i, --id <type>', 'user id')
@@ -40,3 +41,20 @@ program.parse();
 const options = program.opts();
 
 invokeAction(options);
+
+// ------- Variant 2
+// console.log(process.argv);
+
+// const actionIndex = process.argv.indexOf("--action");
+
+// if (actionIndex !== -1) {
+//   const action = process.argv[actionIndex + 1];
+//   const id = process.argv[actionIndex + 2];
+//   const name = process.argv[actionIndex + 3];
+//   const email = process.argv[actionIndex + 4];
+//   const phone = process.argv[actionIndex + 5];
+
+//   console.log(action, id, name, email, phone);
+
+//   invokeAction({ action, id, name, email, phone });
+// }
